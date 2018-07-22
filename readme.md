@@ -89,8 +89,8 @@ Similarly, `callback(null)` means success but without any response
 
 #### AWS CloudWatch
 
-#####Log Group Name
+##### Log Group Name
 If the name of the lambda function is "HelloWorld", then a log group is created with the same name, and all the logs pertaining to the same lambda function is stored in it
 
-#####Log Stream Name
+##### Log Stream Name
 Inside the Log Group, there are multiple streams that are created based on time, or the number of times we are updating the lambda function. A large number of log streams refer to a single log group name. 
