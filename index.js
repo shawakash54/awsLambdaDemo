@@ -1,4 +1,4 @@
 exports.handler = (event, context, callback)=>{
     console.log('Hello world');
-    callback(null, );
+    callback(null, 'Hello World');
 }
